@@ -4,13 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Psychic Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+
 </head>
 <body>
 <div id="game">
 
-
-  
-    <p>Guess the letter I'm thinking </p>
+    <h1 id="h1">Step right up! Test your mental strength!</h1>
+    <p class="intro">
+    Are you smarter than a computer? Do you really know technology? </p>
+    <p>Guess a letter, see if you can read this robot's mind! Chose a letter to begin!</p>
+    <img class="img" src="https://fcit.usf.edu/matrix/wp-content/uploads/2016/12/Robot-24-C.png" width=180px height=180px align=center>
 </div>
 
 
@@ -44,9 +49,8 @@
           "<p>You chose: " + userGuess + "</p>" +
           "<p>The computer chose: " + computerGuess + "</p>" +
           "<p>wins: " + wins + "</p>" +
-          "<p>losses: " + losses + "</p>"; 
-
-      
+          "<p>losses: " + losses + "</p>";
+       
 
   document.querySelector("#game").innerHTML = html;
      }; 
