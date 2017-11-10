@@ -1,26 +1,26 @@
 
 body {
-	background-color:#EBDE9F;
+	background-color:#4598a5;
 	font-size:30px;
 	font-weight:strong;
-	font-family: 'Sacramento', cursive;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 #intro  {
 	font-size: 32px
 	font-weight:strong;
-	font-family: 'Sacramento', cursive;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 #h1 {
 	font-size: 32px
 	font-weight:strong;
-	font-family: 'Sacramento', cursive;
+	font-family: 'Shadows Into Light', cursive;
 
 }
 
 #game {
 	text-align: center;
 	border-style: dotted;
-	border-color: #513619;
+	border-color:white;
 }
